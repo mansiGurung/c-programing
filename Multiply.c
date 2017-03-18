@@ -5,6 +5,6 @@ int main()
 	printf("enter any two numbers a,b=%d %d",a,b);
 	scanf("%d %d",&a,&b);
 	c=a*b;
-	printf("factorial=%d\n %d\n",c,c);
+	printf("mult=%d\n %d\n",c,c);
 return 0;
 }
