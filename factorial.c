@@ -1,10 +1,20 @@
 #include<stdio.h>
-int main()
+#include<conio.h>
+
+void main()
 {
-	int a,b,c;
-	printf("enter any two numbers a,b=%d %d",a,b);
-	scanf("%d %d",&a,&b);
-	c=a*b;
-	printf("factorial=%d\n %d\n",c,c);
-return 0;
+	int a,i=1,b;
+	
+	printf("enter a number:\n");
+	scanf("%d",&a);
+
+for(b=1; b<=a; b++)
+
+{
+	i=i*b;
+}
+
+printf("%d",i);
+
+getch();
 }
